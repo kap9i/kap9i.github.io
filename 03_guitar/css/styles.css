@@ -1,0 +1,431 @@
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url(../fonts/Ubuntu-Bold.ttf);
+}
+body {
+  color: #4d4d4d;
+  font: 14px Ubuntu-Bold;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  max-width: 1270px;
+  margin: auto;
+}
+header .wrap {
+  max-width: 1200px;
+  margin: auto;
+}
+header .wrap .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+header .wrap .top .top__social img {
+  width: 5%;
+  margin-right: 1%;
+}
+header .wrap .top .top__enter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-basis: 160px;
+  justify-content: space-between;
+  margin-right: 3%;
+}
+header .wrap .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+header .wrap .bottom .bottom__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .wrap .bottom .bottom__logo img {
+  width: 100%;
+}
+header .wrap .bottom .bottom__logo .bottom__p p {
+  font-size: 24px;
+}
+header .wrap .bottom .bottom__logo .bottom__p :last-child {
+  color: #eabb2d;
+  font-size: 19px;
+}
+header .wrap .bottom .bottom__search {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+header .wrap .bottom .bottom__search #bottom__field {
+  background: #f2f2f2;
+  width: 90%;
+  border: none;
+  padding: 2%;
+}
+header .wrap .bottom .bottom__search #bottom__button {
+  background: #f9ab3e;
+  padding: 2% 5%;
+}
+header .wrap .bottom .bottom__search #bottom__button:hover {
+  background: #dd9837;
+  cursor: pointer;
+  -webkit-transition: background .5s;
+  transition: background 0.5s;
+}
+header .wrap .bottom .bottom__search #bottom__button img {
+  width: 100%;
+}
+header .wrap .bottom .bottom__basket {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+header .wrap .bottom .bottom__basket img {
+  margin-right: 5px;
+}
+nav {
+  max-width: 1270px;
+  margin: auto;
+}
+nav .wrap {
+  margin: auto;
+}
+nav .wrap .menu_toggle {
+  display: none;
+  font-size: 18px;
+  background: #f9ab3e;
+  text-align: center;
+  color: #fff;
+  padding: 3%;
+}
+nav .wrap .menu_toggle:hover {
+  background: #dd9837;
+  cursor: pointer;
+  -webkit-transition: background .5s;
+  transition: background .5s;
+}
+nav .wrap ul {
+  display: flex;
+  justify-content: space-between;
+  background: #f9ab3e;
+}
+nav .wrap ul li {
+  flex: 1;
+  border-left: 2px solid #fff;
+  font-size: 18px;
+}
+nav .wrap ul li:first-child {
+  border: none;
+}
+nav .wrap ul li:hover {
+  background: #dd9837;
+  -webkit-transition: background .5s;
+  transition: background .5s;
+}
+nav .wrap ul li a {
+  text-decoration: none;
+  padding: 5%;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+main {
+  max-width: 1270px;
+  margin: auto;
+}
+main .wrap {
+  max-width: 1200px;
+  margin: auto;
+}
+main .wrap .guitar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 80px 0;
+}
+main .wrap .guitar img {
+  width: 100%;
+}
+main .wrap .guitar .arrow {
+  width: 50px;
+  opacity: 0.5;
+}
+main .wrap .guitar .arrow:hover {
+  opacity: 1;
+}
+main .wrap .guitar .guitar__buttons {
+  display: none;
+  justify-content: space-around;
+  flex-basis: 90%;
+}
+main .wrap .guitar .guitar__buttons a {
+  border: 1px solid #bababa;
+  padding: 1%;
+  font-size: 16px;
+  display: block;
+}
+main .wrap .guitar .guitar__buttons a:hover {
+  background: #bababa;
+  cursor: pointer;
+  -webkit-transition: background .5s;
+  transition: background .5s;
+  color: #fff;
+}
+main .wrap .guitar .guitar__order {
+  width: 30%;
+  text-align: center;
+}
+main .wrap .guitar .guitar__order h1 {
+  font-size: 40px;
+}
+main .wrap .guitar .guitar__order h2 {
+  font-size: 18px;
+  color: #f9ab3e;
+}
+main .wrap .guitar .guitar__order p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+main .wrap .guitar .guitar__order span {
+  border: 1px solid #f9ab3e;
+  padding: 3%;
+  font-size: 20px;
+}
+main .wrap .guitar .guitar__order span:hover {
+  background: #f9ab3e;
+  cursor: pointer;
+  -webkit-transition: background .5s;
+  transition: background .5s;
+  color: #fff;
+}
+main .wrap .discount {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+}
+main .wrap .discount .discount__items {
+  flex-basis: 290px;
+  padding: 3%;
+  margin: 1%;
+  background: #eabb2d;
+  text-align: center;
+}
+main .wrap .discount .discount__items h2 {
+  font-size: 28px;
+}
+main .wrap .discount .discount__items p {
+  font-size: 14px;
+  margin-bottom: 3%;
+}
+main .wrap .discount .discount__items a {
+  font-size: 20px;
+  color: inherit;
+}
+main .wrap .discount .discount__items a:hover {
+  text-decoration: underline;
+}
+main .wrap .guitars {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+main .wrap .guitars .guitars__items {
+  flex-basis: 20%;
+  display: flex;
+}
+main .wrap .guitars .guitars__items .guitars__item1 {
+  border: 1px solid #bababa;
+  padding: 2%;
+  margin: 0 1px 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+main .wrap .guitars .guitars__items .guitars__item1 img {
+  align-self: center;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+main .wrap .guitars .guitars__items .guitars__item1 img:hover {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+main .wrap .guitars .guitars__items .guitars__item1 h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+main .wrap .guitars .guitars__items .guitars__item1 p {
+  font-size: 12px;
+  margin-top: 10px;
+  width: 85%;
+}
+main .wrap .guitars .guitars__items .guitars__item1 .guitar__price {
+  color: #f96d3e;
+  font-size: 20px;
+}
+main .wrap .guitars .guitars__items .guitars__item2 {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+}
+main .wrap .guitars .guitars__items .guitars__item2 img {
+  width: 70%;
+  border: 1px solid #bababa;
+  margin-bottom: 1px;
+  padding: 5%;
+}
+footer {
+  max-width: 1270px;
+  margin: auto;
+  background: #9b6b28;
+  color: #fff;
+}
+footer .wrap {
+  max-width: 1200px;
+  margin: auto;
+}
+footer .wrap .foot-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .wrap .foot-nav .foot-nav__item1 {
+  flex: 1;
+}
+footer .wrap .foot-nav .foot-nav__item1 .foot-nav__phone {
+  font-size: 32px;
+}
+footer .wrap .foot-nav .foot-nav__item1 li {
+  font-size: 16px;
+  margin: 3% 0;
+}
+footer .wrap .foot-nav .foot-nav__item1 li:first-child {
+  font-size: 22px;
+  margin: 9% 0;
+}
+footer .wrap .foot-nav .foot-nav__item1 li a {
+  color: inherit;
+  text-decoration: none;
+}
+footer .wrap .foot-nav .foot-nav__item1 li a:hover {
+  text-decoration: underline;
+}
+footer .wrap .foot-nav .foot-nav__item1 .foot-nav__social img {
+  width: 20%;
+}
+footer .wrap p {
+  text-align: center;
+  margin: 5%;
+}
+@media screen and (max-width: 1230px) {
+  header .wrap .top {
+    justify-content: space-around;
+  }
+  header .wrap .bottom {
+    justify-content: space-around;
+  }
+  main .wrap .guitar {
+    justify-content: space-around;
+  }
+  main .wrap .discount {
+    justify-content: space-around;
+  }
+  main .wrap .guitars {
+    justify-content: space-around;
+  }
+  main .wrap .guitars .guitars__items .guitars__item1 img {
+    border: 1px solid #fff;
+  }
+  main .wrap .guitars .guitars__items .guitars__item1 img:hover {
+    border: 1px solid #bababa;
+  }
+  footer .wrap .foot-nav {
+    justify-content: space-around;
+    padding: 0 3%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  footer .wrap .foot-nav .foot-nav__item1 .foot-nav__phone {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 852px) {
+  header .wrap .bottom .bottom__search {
+    order: 2;
+    flex-basis: 500px;
+  }
+  nav {
+    margin-top: 3%;
+  }
+  main .wrap .guitar .guitar__order {
+    order: 2;
+    width: 70%;
+  }
+  footer .wrap .foot-nav .foot-nav__item1 .foot-nav__phone {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 654px) {
+  header .wrap .top .top__social {
+    text-align: center;
+  }
+  header .wrap .bottom .bottom__search {
+    flex-basis: 80%;
+  }
+  nav .wrap .menu_toggle {
+    display: block;
+  }
+  nav .wrap ul {
+    display: none;
+    padding: 3%;
+  }
+  nav .wrap ul li {
+    border-left: none;
+    border-top: 2px solid #fff;
+  }
+  nav .wrap ul li:first-child {
+    border-top: 2px solid #fff;
+  }
+  main {
+    max-width: 1270px;
+    margin: auto;
+  }
+  main .wrap {
+    max-width: 1200px;
+    margin: auto;
+  }
+  main .wrap .guitar img {
+    width: 80%;
+  }
+  main .wrap .guitar .arrow {
+    display: none;
+  }
+  main .wrap .guitar .guitar__buttons {
+    display: flex;
+  }
+  main .wrap .guitar a {
+    text-align: center;
+  }
+  main .wrap .discount .discount__items {
+    margin: 3%;
+  }
+  footer .wrap .foot-nav .foot-nav__item1 {
+    flex-basis: 200px;
+    flex-grow: 0;
+  }
+}
+@media screen and (max-width: 330px) {
+  main .wrap .guitars .guitars__item1 img {
+    width: 100%;
+  }
+}
