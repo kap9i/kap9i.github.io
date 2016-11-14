@@ -44,8 +44,8 @@ $(function () {
         var owl = $(".owl-carousel").owlCarousel({
             items: 1,
             slideSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 4500,
+            autoPlay: true,
+            autoPlayTimeout: 4500,
             loop: true,
             mouseDrag: false,
             singleItem: true,
