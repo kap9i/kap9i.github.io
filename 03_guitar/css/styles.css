@@ -325,7 +325,7 @@ footer .wrap .foot-nav .foot-nav__item1 .foot-nav__social img {
 }
 footer .wrap p {
   text-align: center;
-  margin: 5%;
+  padding: 3%;
 }
 @media screen and (max-width: 1230px) {
   header .wrap .top {
