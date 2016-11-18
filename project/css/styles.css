@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Museo Sans Cyrl 500";
+  src: url('../fonts/ofont.ru_Museo Sans Cyrl 500.ttf');
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header .wrap {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+header .wrap .right {
+  position: fixed;
+  width: 400px;
+  right: 50px;
+  top: 40px;
+}
+
+header .wrap .right .right__bg1 {
+  background: url("../img/right_bg1.png") no-repeat center;
+  width: 410px;
+  height: 128px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+header .wrap .right ul {
+  color: #000;
+  margin: 10px 30px;
+}
+
+header .wrap .right ul li {
+  margin-bottom: 30px;
+}
+
+header .wrap .right ul li:before {
+  background: url("../img/arrow.png") no-repeat;
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  content: '';
+  top: 190px;
+  left: 15px;
+}
+
+header .wrap .right ul li:nth-child(2):before {
+  top: 240px;
+}
+
+header .wrap .right ul li:nth-child(3):before {
+  top: 290px;
+}
+
+header .wrap .right .right__bg2 {
+  background: url("../img/right_bg2.png") no-repeat center;
+  width: 399px;
+  height: 90px;
+  line-height: 100px;
+  color: #fff;
+  text-align: center;
+}
+
+header .wrap .right p {
+  margin: 10px 30px;
+}
+
+header .wrap .right p:before {
+  background: url("../img/hat_red.png") no-repeat;
+  width: 17px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  content: '';
+  top: 453px;
+  left: 10px;
+}
+
+header .wrap .right .header__btn-right {
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 12px;
+  margin-top: 40px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(180deg, #6bf6ff, #7528f5);
+  cursor: pointer;
+}
+
+header .wrap .header__wrap {
+  max-width: 800px;
+}
+
+header .wrap .header__wrap .left .header__main-video {
+  height: 359px;
+  background: #fcf;
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+}
+
+header .wrap .header__wrap .left .header__title {
+  margin: 50px;
+}
+
+header .wrap .header__wrap .left .header__title img {
+  float: left;
+  margin-right: 5px;
+}
+
+header .wrap .header__wrap .left .header__title h2 {
+  margin: 30px 0;
+}
+
+header .wrap .header__wrap .left .header__btn-left {
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 1px 1px 1px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  position: relative;
+  top: 17px;
+  right: 17px;
+  cursor: pointer;
+}
+
+header .wrap .header__wrap .left .header__btn-left img {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+
+header .wrap .header__wrap .left .header__videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  overflow: hidden;
+}
+
+header .wrap .header__wrap .left .header__videos .header__video {
+  background: #cf4;
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.choice .wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.choice .wrap .choice__wrap {
+  max-width: 800px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.choice .wrap .choice__wrap p {
+  margin: 30px 0;
+}
+
+.choice .wrap .choice__wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.choice .wrap .choice__wrap ul li {
+  flex-basis: 16%;
+  text-align: center;
+  color: #c6cffd;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.choice .wrap .choice__wrap ul li:hover {
+  background: url("../img/splat.png") no-repeat center;
+  text-decoration: none;
+}
