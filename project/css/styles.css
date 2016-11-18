@@ -8,6 +8,12 @@
   src: url('../fonts/trajan-pro-3.otf');
 }
 
+body {
+  background: url("../img/body_bg.png") no-repeat center;
+  background-size: cover;
+  font-family: "MuseoSansCyrl";
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -47,11 +53,6 @@ h2 {
   justify-content: space-between;
 }
 
-body {
-  background: url("../img/body_bg.png") no-repeat center;
-  background-size: cover;
-}
-
 header .wrap {
   max-width: 1200px;
   margin: 100px auto;
@@ -70,8 +71,8 @@ header .wrap .right .right__bg1 {
   height: 128px;
   line-height: 50px;
   color: #fff;
-  text-align: center;
-  padding-top: 50px;
+  text-align: left;
+  padding: 50px 0 0 40px;
 }
 
 header .wrap .right ul {
@@ -108,7 +109,8 @@ header .wrap .right .right__bg2 {
   height: 90px;
   line-height: 100px;
   color: #fff;
-  text-align: center;
+  text-align: left;
+  padding-left: 40px;
 }
 
 header .wrap .right p {
@@ -127,7 +129,7 @@ header .wrap .right p:before {
 }
 
 header .wrap .right .header__btn-right {
-  font-family: "Museo Sans Cyrl 500";
+  font-family: "MuseoSansCyrl";
   font-size: 12px;
   margin-top: 25px;
   color: #fff;
@@ -148,11 +150,16 @@ header .wrap .header__wrap {
 
 header .wrap .header__wrap .left .header__main-video {
   height: 359px;
-  background: #fcf;
   -webkit-border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
   border-radius: 7px 7px 0 0;
   overflow: hidden;
+}
+
+header .wrap .header__wrap .left .header__main-video h3 {
+  position: absolute;
+  top: 250px;
+  left: 400px;
 }
 
 header .wrap .header__wrap .left .header__title {
@@ -242,6 +249,7 @@ header .wrap .header__wrap .left .header__videos .header__video {
   color: #c6cffd;
   text-decoration: underline;
   font-size: 18px;
+  padding-top: 30px;
 }
 
 .choice .wrap .choice__wrap .choice__border ul li:hover {
@@ -249,6 +257,10 @@ header .wrap .header__wrap .left .header__videos .header__video {
   background-size: contain;
   text-decoration: none;
   color: #fff;
+}
+
+.choice .wrap .choice__wrap .choice__border ul li img {
+  height: 31px;
 }
 
 .woman .wrap {
@@ -371,7 +383,6 @@ header .wrap .header__wrap .left .header__videos .header__video {
 
 .comments .wrap .comments__wrap {
   max-width: 800px;
-  height: 370px;
   background: #fff;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -383,7 +394,6 @@ header .wrap .header__wrap .left .header__videos .header__video {
 }
 
 .comments .wrap .comments__wrap .comments__border {
-  height: 270px;
   border: 1px solid #c6cffd;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
