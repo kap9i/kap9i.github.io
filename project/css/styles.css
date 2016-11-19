@@ -164,7 +164,7 @@ header .wrap .header__right .right__bg1 {
   background: url("../img/right_bg1.png") no-repeat center;
   line-height: 40px;
   color: #fff;
-  padding: 40px 0 0 40px;
+  padding: 40px 0 0 32px;
 }
 
 header .wrap .header__right ul {
@@ -192,7 +192,7 @@ header .wrap .header__right .right__bg2 {
   background: url("../img/right_bg2.png") no-repeat center;
   line-height: 100px;
   color: #fff;
-  padding: 30px 0 0 20px;
+  padding: 30px 0 0 32px;
 }
 
 header .wrap .header__right p {
