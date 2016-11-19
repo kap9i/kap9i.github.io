@@ -106,6 +106,7 @@ header .wrap .header__wrap .header__left .header__videos .header__video {
   flex-grow: 1;
   flex-basis: 20%;
   padding: 10px;
+  position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -115,15 +116,21 @@ header .wrap .header__wrap .header__left .header__videos .header__video h3 {
   margin-bottom: auto;
   color: #999b9d;
   font-size: 8px;
+  z-index: 3;
 }
 
 header .wrap .header__wrap .header__left .header__videos .header__video a {
   color: #fff;
   font-size: 13px;
+  z-index: 3;
 }
 
 header .wrap .header__wrap .header__left .header__videos .header__video a:hover {
   text-decoration: underline;
+}
+
+header .wrap .header__wrap .header__left .header__videos .header__video img {
+  position: absolute;
 }
 
 header .wrap .header__wrap .header__left .header__title {
@@ -150,6 +157,7 @@ header .wrap .header__wrap .header__left .header__btn-left {
   top: 17px;
   right: 17px;
   cursor: pointer;
+  z-index: 6;
 }
 
 header .wrap .header__wrap .header__left .header__btn-left img {
@@ -161,7 +169,7 @@ header .wrap .header__wrap .header__left .header__btn-left img {
 header .wrap .header__right {
   position: fixed;
   width: 400px;
-  right: 50px;
+  right: 4%;
   top: 60px;
 }
 
@@ -424,6 +432,12 @@ header .wrap .header__right .header__btn-right:hover {
 
 .comments .wrap .comments__wrap .comments__border .fb-comments {
   width: 50%;
+}
+
+@media screen and (min-width: 1900px) {
+  header .wrap .header__right {
+    right: 400px;
+  }
 }
 
 @media screen and (max-width: 1300px) {

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
     <script type="text/javascript">
-        VK.init({apiId: 5733185, onlyWidgets: true});
+        VK.init({apiId: 5737004, onlyWidgets: true});
     </script>
     <script type="text/javascript" src="jwplayer/jwplayer.js"></script>
 
@@ -31,7 +31,7 @@
             <div class="header__left">
                 <div class="header__main-video">
                     <h3>СМОТРЕТЬ ВИДЕО</h3>
-                    <div id="myElement">Загрузка плеера...</div>
+                    <!--<div id="myElement">Загрузка плеера...</div>
                     <script type="text/javascript">
                         jwplayer("myElement").setup({
                             file: "https://www.youtube.com/watch?v=yUynV5pZMrM",
@@ -39,7 +39,8 @@
                             height: 450,
                             title: "СМОТРЕТЬ ВИДЕО"
                         });
-                    </script>
+                    </script>-->
+                    <iframe width="800" height="450" src="https://www.youtube.com/embed/yUynV5pZMrM" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="header__title">
                     <img src="img/icon_hat.png" alt="">
@@ -50,28 +51,38 @@
                 <div class="header__videos">
                     <div class="header__video">
                         <h3>ДЕНЬ 1</h3>
-                        <a href="#">Наполняемся вдохновением</a>
-                        <!--http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_finance-->
+                        <a href="http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_finance">
+                            Наполняемся вдохновением
+                        </a>
+                        <img src="img/video1.png" alt="">
                     </div>
                     <div class="header__video">
                         <h3>ЗАВТРА</h3>
-                        <a href="#">Увеличиваем свою энергию</a>
-                        <!--http://gpp.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_relations-->
+                        <a href="http://gpp.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_relations">
+                            Увеличиваем свою энергию
+                        </a>
+                        <img src="img/video2.png" alt="">
                     </div>
                     <div class="header__video">
                         <h3>ДЕНЬ 3</h3>
-                        <a href="#">Перезагружаем отношения</a>
-                        <!--http://gpp.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_emotion-->
+                        <a href="http://gpp.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_emotion">
+                            Перезагружаем отношения
+                        </a>
+                        <img src="img/video3.png" alt="">
                     </div>
                     <div class="header__video">
                         <h3>ДЕНЬ 4</h3>
-                        <a href="#">Фокусируемся на главном</a>
-                        <!--http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_profess-->
+                        <a href="http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_profess">
+                            Фокусируемся на главном
+                        </a>
+                        <img src="img/video4.png" alt="">
                     </div>
                     <div class="header__video">
                         <h3>ДЕНЬ 5</h3>
-                        <a href="#">Генерируем состояние изобилия</a>
-                        <!--http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_effect-->
+                        <a href="http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_effect">
+                            Генерируем состояние изобилия
+                        </a>
+                        <img src="img/video5.png" alt="">
                     </div>
                 </div>
             </div>
@@ -110,37 +121,43 @@
                 <ul>
                     <li>
                         <a href="http://gpp.elizavetababanova.com/?utm_medium=internal&utm_source=lesson1_body">
-                            <img src="img/body.svg" alt="">
+                            <img src="img/body.svg" alt="" class="choice__img1">
+                            <img src="img/body2.svg" alt="">
                         </a>
                         <div>Тело</div>
                     </li>
                     <li>
                         <a href="http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_finance">
-                            <img src="img/finance.svg" alt="">
+                            <img src="img/finance.svg" alt="" class="choice__img1">
+                            <img src="img/finance2.svg" alt="">
                         </a>
                         <div>Финансы</div>
                     </li>
                     <li>
                         <a href="http://gpp.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_relations">
-                            <img src="img/relationship.svg" alt="">
+                            <img src="img/relationship.svg" alt="" class="choice__img1">
+                            <img src="img/relationship2.svg" alt="">
                         </a>
                         <div>Отношения</div>
                     </li>
                     <li>
                         <a href="http://gpp.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_emotion">
-                            <img src="img/emotion.svg" alt="">
+                            <img src="img/emotion.svg" alt="" class="choice__img1">
+                            <img src="img/emotion2.svg" alt="">
                         </a>
                         <div>Эмоции</div>
                     </li>
                     <li>
                         <a href="http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_profess">
-                            <img src="img/realization.svg" alt="">
+                            <img src="img/realization.svg" alt="" class="choice__img1">
+                            <img src="img/realization2.svg" alt="">
                         </a>
                         <div>Реализация</div>
                     </li>
                     <li>
                         <a href="http://finances.elizavetababanova.com/?utm_source=funnel&utm_medium=lesson1_effect">
-                            <img src="img/efficacy.svg" alt="">
+                            <img src="img/efficacy.svg" alt="" class="choice__img1">
+                            <img src="img/efficacy2.svg" alt="">
                         </a>
                         <div>Эффективность</div>
                     </li>
@@ -188,7 +205,7 @@
                 <div class="comments__vk">
                     <div id="vk_comments"></div>
                     <script type="text/javascript">
-                        VK.Widgets.Comments("vk_comments", {limit: 20, width: "665", attach: "*"});
+                        VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
                     </script>
                 </div>
                 <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments/"
