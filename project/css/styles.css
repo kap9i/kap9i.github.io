@@ -418,8 +418,16 @@ header .wrap .header__right p:before {
     max-width: 600px;
   }
 
+  header .wrap .header__wrap .header__left .header__main-video iframe {
+    height: 400px;
+  }
+
   header .wrap .header__wrap .header__left .header__main-video h3 {
     left: 40%;
+  }
+
+  header .wrap .header__wrap .header__left .header__videos .header__video {
+    min-height: 70px;
   }
 
   header .wrap .header__right {
@@ -437,6 +445,14 @@ header .wrap .header__right p:before {
         .header__right-bottom {
           flex-basis: 390px;
         }*/
+  }
+
+  header .wrap .header__right .right__bg1 {
+    letter-spacing: 5px;
+  }
+
+  header .wrap .header__right .right__bg2 {
+    letter-spacing: 5px;
   }
 
   .choice .wrap {
