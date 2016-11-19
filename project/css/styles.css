@@ -126,8 +126,8 @@ header .wrap .header__wrap .header__left .header__title img {
 }
 
 header .wrap .header__wrap .header__left .header__title h2 {
-  margin: 30px 30px 0;
-  letter-spacing: 3px;
+  margin: 30px 0 0;
+  letter-spacing: normal;
 }
 
 header .wrap .header__wrap .header__left .header__btn-left {
@@ -152,7 +152,7 @@ header .wrap .header__wrap .header__left .header__btn-left img {
 
 header .wrap .header__right {
   position: fixed;
-  width: 400px;
+  width: 30%;
   right: 4%;
   top: 80px;
 }
@@ -166,7 +166,7 @@ header .wrap .header__right .right__bg1 {
 
 header .wrap .header__right ul {
   color: #000;
-  margin: 10px 30px;
+  margin: 10px 50px;
 }
 
 header .wrap .header__right ul li {
@@ -193,7 +193,7 @@ header .wrap .header__right .right__bg2 {
 }
 
 header .wrap .header__right p {
-  margin: 10px 30px;
+  margin: 10px 50px;
   position: relative;
 }
 
@@ -229,7 +229,6 @@ header .wrap .header__right p:before {
   -moz-border-radius: 7px;
   border-radius: 7px;
   padding: 40px;
-  min-height: 370px;
 }
 
 .choice .wrap .choice__wrap .choice__border h2 {
@@ -245,8 +244,6 @@ header .wrap .header__right p:before {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  top: 30px;
 }
 
 .choice .wrap .choice__wrap .choice__border ul li {
@@ -258,13 +255,13 @@ header .wrap .header__right p:before {
 }
 
 .choice .wrap .choice__wrap .choice__border ul li:hover {
-  background: url("../img/splat.png") no-repeat center;
-  background-size: contain;
+  /*background: url("../img/splat.png") no-repeat center;
+              background-size: contain;*/
   text-decoration: none;
-  color: #fff;
-  position: relative;
-  padding: 6%;
-  font-size: 14px;
+  /*color: #fff;
+              position: relative;
+              padding: 6%;
+              font-size: 14px;*/
 }
 
 .choice .wrap .choice__wrap .choice__border ul li img {
@@ -362,6 +359,7 @@ header .wrap .header__right p:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .social .wrap .social__wrap .social__border .social__icons a {
@@ -482,17 +480,12 @@ header .wrap .header__right p:before {
     height: 300px;
   }
 
-  header .wrap .header__wrap .header__left .header__videos {
-    justify-content: space-around;
-  }
-
-  header .wrap .header__wrap .header__left .header__videos .header__video {
-    flex-basis: 160px;
-    margin-top: 15px;
-  }
-
   header .wrap .header__wrap .header__left .header__btn-left {
-    left: 50%;
+    display: none;
+  }
+
+  header .wrap .header__wrap .header__left .header__videos {
+    display: none;
   }
 
   .choice .wrap .choice__wrap .choice__border ul li {
@@ -547,17 +540,18 @@ header .wrap .header__right p:before {
 
   .woman .wrap .woman__wrap .woman__title {
     margin-top: 330px;
+    margin-left: 10%;
+    float: left;
+  }
+
+  .comments .wrap .comments__wrap .comments__border {
+    display: block;
   }
 }
 
 @media screen and (max-width: 400px) {
   h2 {
     font-size: 22px;
-  }
-
-  header .wrap .header__wrap .header__left .header__videos .header__video {
-    flex-basis: 200px;
-    left: 25%;
   }
 
   header .wrap .header__wrap .header__left .header__main-video iframe {
