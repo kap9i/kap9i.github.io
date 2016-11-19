@@ -84,7 +84,6 @@ header .wrap .header__wrap .header__left .header__videos {
 }
 
 header .wrap .header__wrap .header__left .header__videos .header__video {
-  background: #716f72;
   min-height: 90px;
   display: flex;
   flex-direction: column;
@@ -104,14 +103,11 @@ header .wrap .header__wrap .header__left .header__videos .header__video h3 {
   z-index: 3;
 }
 
-header .wrap .header__wrap .header__left .header__videos .header__video a {
+header .wrap .header__wrap .header__left .header__videos .header__video p {
   color: #fff;
   font-size: 13px;
   z-index: 3;
-}
-
-header .wrap .header__wrap .header__left .header__videos .header__video a:hover {
-  text-decoration: underline;
+  max-width: 130px;
 }
 
 header .wrap .header__wrap .header__left .header__videos .header__video img {
@@ -131,6 +127,7 @@ header .wrap .header__wrap .header__left .header__title img {
 
 header .wrap .header__wrap .header__left .header__title h2 {
   margin: 30px 0;
+  letter-spacing: 3px;
 }
 
 header .wrap .header__wrap .header__left .header__btn-left {
@@ -477,8 +474,13 @@ header .wrap .header__right p:before {
 }
 
 @media screen and (max-width: 768px) {
+  header .wrap .header__wrap .header__left .header__videos {
+    justify-content: space-around;
+  }
+
   header .wrap .header__wrap .header__left .header__videos .header__video {
-    flex-basis: 30%;
+    flex-basis: 160px;
+    margin-top: 15px;
   }
 
   header .wrap .header__wrap .header__left .header__btn-left {
@@ -509,15 +511,7 @@ header .wrap .header__right p:before {
     width: 100%;
   }
 
-  header .wrap .header__wrap .header__left .header__videos {
-    text-align: center;
-  }
-
-  header .wrap .header__wrap .header__left .header__videos .header__video {
-    flex-basis: 40%;
-  }
-
-  header .wrap .header__wrap .header__right {
+  header .wrap .header__right {
     padding: 2%;
   }
 
@@ -548,12 +542,9 @@ header .wrap .header__right p:before {
     font-size: 22px;
   }
 
-  header .wrap .header__wrap .header__left .header__videos {
-    text-align: center;
-  }
-
   header .wrap .header__wrap .header__left .header__videos .header__video {
-    flex-basis: 60%;
+    flex-basis: 200px;
+    left: 25%;
   }
 
   .choice .wrap .choice__wrap .choice__border ul li {
