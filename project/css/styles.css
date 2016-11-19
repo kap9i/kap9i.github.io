@@ -414,7 +414,8 @@ header .wrap .header__right p:before {
   }
 
   header .wrap .header__wrap {
-    margin: 0 auto;
+    margin: 0 0 0 8%;
+    max-width: 600px;
   }
 
   header .wrap .header__wrap .header__left .header__main-video h3 {
@@ -422,20 +423,20 @@ header .wrap .header__right p:before {
   }
 
   header .wrap .header__right {
-    width: 75%;
-    position: static;
-    margin: 30px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+    /*width: 75%;
+        position: static;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
-  header .wrap .header__right .header__right-top {
-    flex-basis: 390px;
-  }
+        .header__right-top {
+          flex-basis: 390px;
+        }
 
-  header .wrap .header__right .header__right-bottom {
-    flex-basis: 390px;
+        .header__right-bottom {
+          flex-basis: 390px;
+        }*/
   }
 
   .choice .wrap {
@@ -444,7 +445,8 @@ header .wrap .header__right p:before {
   }
 
   .choice .wrap .choice__wrap {
-    margin: 0 auto;
+    margin: 0 0 0 8%;
+    max-width: 600px;
   }
 
   .woman .wrap {
@@ -453,7 +455,8 @@ header .wrap .header__right p:before {
   }
 
   .woman .wrap .woman__wrap {
-    margin: 0 auto;
+    margin: 0 0 0 8%;
+    max-width: 600px;
   }
 
   .social .wrap {
@@ -462,7 +465,8 @@ header .wrap .header__right p:before {
   }
 
   .social .wrap .social__wrap {
-    margin: 0 auto;
+    margin: 0 0 0 8%;
+    max-width: 600px;
   }
 
   .comments .wrap {
@@ -471,6 +475,34 @@ header .wrap .header__right p:before {
   }
 
   .comments .wrap .comments__wrap {
+    margin: 0 0 0 8%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header .wrap .header__right {
+    width: 75%;
+    position: static;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  header .wrap .header__right .header__right-top {
+    flex-basis: 380px;
+  }
+
+  header .wrap .header__right .header__right-bottom {
+    flex-basis: 380px;
+  }
+
+  header .wrap .header__wrap {
+    margin: 0 auto;
+  }
+
+  .choice .wrap .choice__wrap {
     margin: 0 auto;
   }
 }
