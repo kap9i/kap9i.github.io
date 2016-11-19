@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "MuseoSansCyrl";
-  src: url('../fonts/MuseoSansCyrl.otf');
+  font-family: "MuseoSansCyrl_0";
+  src: url('../fonts/MuseoSansCyrl_0.otf');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
 body {
   background: url("../img/body_bg.png") no-repeat center;
   background-size: cover;
-  font-family: "MuseoSansCyrl";
+  font-family: "MuseoSansCyrl_0";
 }
 
 .flex {
@@ -65,14 +65,13 @@ header .wrap {
 header .wrap .header__wrap {
   max-width: 800px;
   background: #fff;
-}
-
-header .wrap .header__wrap .header__left .header__main-video {
-  height: 359px;
   -webkit-border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
   border-radius: 7px 7px 0 0;
-  overflow: hidden;
+}
+
+header .wrap .header__wrap .header__left .header__main-video {
+  min-height: 359px;
 }
 
 header .wrap .header__wrap .header__left .header__main-video h3 {
@@ -485,16 +484,16 @@ header .wrap .header__right .header__btn-right:hover {
     margin: 0 auto;
   }
 
-  .want {
-    padding: 2%;
+  .want .wrap {
     margin: 0 auto;
+    padding: 2%;
   }
 
   .want .wrap .want__wrap {
     margin: 0 auto;
   }
 
-  .comments {
+  .comments .wrap {
     padding: 2%;
     margin: 0 auto;
   }
@@ -521,11 +520,6 @@ header .wrap .header__right .header__btn-right:hover {
   .woman .wrap {
     max-width: 1200px;
     margin: 100px auto;
-  }
-
-  .woman .wrap .woman__wrap {
-    background-size: cover;
-    height: auto;
   }
 
   .want .wrap .want__wrap .want__border {
@@ -583,5 +577,10 @@ header .wrap .header__right .header__btn-right:hover {
 
   header .wrap .header__wrap .header__left .header__videos .header__video {
     flex-basis: 60%;
+  }
+
+  .choice .wrap .choice__wrap .choice__border ul li {
+    margin: 30px auto;
+    font-size: 12px;
   }
 }
