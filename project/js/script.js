@@ -21,7 +21,7 @@ $(function () {
         form1.css({display: 'block'}, 500)
             .animate({opacity: 1}, 500)
 
-        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed'})
+        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed', 'z-index': 10})
 
     });
 
@@ -29,7 +29,7 @@ $(function () {
         form2.css({display: 'block'}, 500)
             .animate({opacity: 1}, 500)
 
-        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed'})
+        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed', 'z-index': 10})
 
     });
 
@@ -37,7 +37,7 @@ $(function () {
         form3.css({display: 'block'}, 500)
             .animate({opacity: 1}, 500)
 
-        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed'})
+        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed', 'z-index': 10})
 
     });
 
@@ -45,7 +45,7 @@ $(function () {
         form4.css({display: 'block'}, 500)
             .animate({opacity: 1}, 500)
 
-        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed'})
+        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed', 'z-index': 10})
 
     });
 
@@ -53,7 +53,7 @@ $(function () {
         form5.css({display: 'block'}, 500)
             .animate({opacity: 1}, 500)
 
-        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed'})
+        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed', 'z-index': 10})
 
     });
 
@@ -61,7 +61,7 @@ $(function () {
         form6.css({display: 'block'}, 500)
             .animate({opacity: 1}, 500)
 
-        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed'})
+        hidden.css({background: '#000', opacity: 0.5, width: '100%', height: '100%', bottom: 0, top: 0, position: 'fixed', 'z-index': 10})
 
     });
 
@@ -71,42 +71,42 @@ $(function () {
         form1.css({display: 'none'}, 500)
             .animate({opacity: 0}, 500)
 
-        hidden.css({opacity: 0, width: '0', height: '0'})
+        hidden.css({opacity: 0, width: '0', height: '0', 'z-index': 0})
     });
 
     cls.click(function () {
         form2.css({display: 'none'}, 500)
             .animate({opacity: 0}, 500)
 
-        hidden.css({opacity: 0, width: '0', height: '0'})
+        hidden.css({opacity: 0, width: '0', height: '0', 'z-index': 0})
     });
 
     cls.click(function () {
         form3.css({display: 'none'}, 500)
             .animate({opacity: 0}, 500)
 
-        hidden.css({opacity: 0, width: '0', height: '0'})
+        hidden.css({opacity: 0, width: '0', height: '0', 'z-index': 0})
     });
 
     cls.click(function () {
         form4.css({display: 'none'}, 500)
             .animate({opacity: 0}, 500)
 
-        hidden.css({opacity: 0, width: '0', height: '0'})
+        hidden.css({opacity: 0, width: '0', height: '0', 'z-index': 0})
     });
 
     cls.click(function () {
         form5.css({display: 'none'}, 500)
             .animate({opacity: 0}, 500)
 
-        hidden.css({opacity: 0, width: '0', height: '0'})
+        hidden.css({opacity: 0, width: '0', height: '0', 'z-index': 0})
     });
 
     cls.click(function () {
         form6.css({display: 'none'}, 500)
             .animate({opacity: 0}, 500)
 
-        hidden.css({opacity: 0, width: '0', height: '0'})
+        hidden.css({opacity: 0, width: '0', height: '0', 'z-index': 0})
     });
 
     /*всплывающая форма*/

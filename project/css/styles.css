@@ -70,9 +70,9 @@ header .wrap {
 header .wrap .header__wrap {
   max-width: 800px;
   background: #fff;
-  -webkit-border-radius: 7px 7px 0 0;
-  -moz-border-radius: 7px 7px 0 0;
-  border-radius: 7px 7px 0 0;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -120,7 +120,7 @@ header .wrap .header__wrap .header__left .header__videos .header__video img {
 }
 
 header .wrap .header__wrap .header__left .header__title {
-  margin: 50px 50px 0;
+  margin: 20px 50px 0;
 }
 
 header .wrap .header__wrap .header__left .header__title img {
@@ -129,7 +129,7 @@ header .wrap .header__wrap .header__left .header__title img {
 }
 
 header .wrap .header__wrap .header__left .header__title h2 {
-  margin: 30px 0 0;
+  margin: 20px 0 0;
   letter-spacing: 5px;
 }
 
@@ -252,9 +252,9 @@ header .wrap .header__right p:before {
 }
 
 .choice .wrap .choice__wrap .choice__border ul .jc_subblock_1 {
-  position: absolute;
-  bottom: 140%;
-  left: 50%;
+  position: fixed;
+  bottom: 50%;
+  left: 35%;
   display: none;
   opacity: 0;
   z-index: 99;
@@ -296,9 +296,8 @@ header .wrap .header__right p:before {
 
 .woman .wrap .woman__wrap {
   max-width: 800px;
-  background: url("../img/woman_bg.png") no-repeat center top;
-  background-size: cover;
-  min-height: 408px;
+  background: url("../img/woman_bg.png") no-repeat center;
+  min-height: 380px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -317,7 +316,7 @@ header .wrap .header__right p:before {
 }
 
 .woman .wrap .woman__wrap .woman__title h2 {
-  margin: 85px 0 30px 0;
+  margin: 77px 0 30px 0;
   font-size: 45px;
 }
 
@@ -340,7 +339,7 @@ header .wrap .header__right p:before {
   box-sizing: border-box;
   font-size: 16px;
   width: 200px;
-  margin: 0 auto 60px;
+  margin: 0 auto 20px;
 }
 
 .woman .wrap .woman__wrap .woman__title .woman__btn:hover {
