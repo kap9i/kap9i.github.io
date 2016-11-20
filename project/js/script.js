@@ -20,4 +20,10 @@ $(function () {
 
         hidden.css({opacity: 0, width: '0', height: '0'})
     });
+
+    $(function () {
+        $(".lgroup_datepicker").datepicker($.datepicker.regional["ru"]);
+        $(".lgroup_datepicker").datepicker("option", "yearRange", "-100:+20");
+        $(".lgroup_datepicker").blur();
+    });
 });

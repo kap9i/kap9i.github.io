@@ -1,3 +1,5 @@
+@import url('//shop.elizavetababanova.com/media/css/page_ext.css');
+
 @font-face {
   font-family: "MuseoSansCyrl_0";
   src: url('../fonts/MuseoSansCyrl_0.otf');
@@ -71,6 +73,7 @@ header .wrap .header__wrap {
   -webkit-border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
   border-radius: 7px 7px 0 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 header .wrap .header__wrap .header__left .header__videos {
@@ -127,7 +130,7 @@ header .wrap .header__wrap .header__left .header__title img {
 
 header .wrap .header__wrap .header__left .header__title h2 {
   margin: 30px 0 0;
-  letter-spacing: normal;
+  letter-spacing: 5px;
 }
 
 header .wrap .header__wrap .header__left .header__btn-left {
@@ -221,6 +224,7 @@ header .wrap .header__right p:before {
   border-radius: 7px;
   padding: 10px;
   box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .choice .wrap .choice__wrap .choice__border {
@@ -299,6 +303,7 @@ header .wrap .header__right p:before {
   -moz-border-radius: 7px;
   border-radius: 7px;
   color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
 
@@ -357,6 +362,7 @@ header .wrap .header__right p:before {
   overflow: hidden;
   padding: 10px;
   box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .social .wrap .social__wrap .social__border {
@@ -399,6 +405,7 @@ header .wrap .header__right p:before {
   overflow: hidden;
   padding: 10px;
   box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .comments .wrap .comments__wrap .comments__border {
@@ -416,6 +423,94 @@ header .wrap .header__right p:before {
 
 .comments .wrap .comments__wrap .comments__border .fb-comments {
   width: 50%;
+}
+
+#subscr-block-7338 {
+  width: 314px;
+  margin: 0 auto;
+  padding: 25px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+#subscr-form-7338 td {
+  font: normal 16px Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+#subscr-form-7338 input.form-submit {
+  text-align: center;
+  width: auto;
+}
+
+#subscr-form-7338 #form-submit-7338 {
+  border: solid 1px #E0E0E0;
+  margin-top: 5px;
+}
+
+#subscr-form-7338 a.oferta {
+  color: #034795;
+  text-decoration: underline;
+}
+
+#subscr-form-7338 a.oferta:hover {
+  text-decoration: none;
+}
+
+#subscr-form-7338 a.jc_compile_btn,
+input.form-submit.jc_compile_btn {
+  border: solid 1px #E0E0E0;
+  margin-top: 5px;
+}
+
+#subscr-form-7338 a.jc_compile_btn span,
+#subscr-form-7338 input.form-submit.jc_compile_btn {
+  font: normal 20px Arial;
+  padding-top: 7px;
+  margin-bottom: -5px;
+}
+
+#subscr-form-7338 input[type=text] {
+  color: #000;
+  font-size: 16px;
+  text-align: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  border: #ccc 1px solid;
+  padding: 7px 10px;
+  margin: 5px 10px 8px;
+  width: 264px;
+}
+
+#subscr-form-7338 textarea.leads_textarea {
+  color: #000;
+  font-size: 16px;
+  text-align: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  border: #ccc 1px solid;
+  padding: 7px 10px;
+  margin: 5px 10px 8px;
+  width: 264px;
+  height: 120px;
+}
+
+#subscr-form-7338 select.leads_select {
+  color: #000;
+  font-size: 16px;
+  text-align: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  border: #ccc 1px solid;
+  padding: 7px 5px;
+  margin: 5px 10px 8px;
+  width: 286px;
+  line-height: 30px;
 }
 
 @media screen and (min-width: 1900px) {
