@@ -779,14 +779,17 @@ input.form-submit.jc_compile_btn {
     flex-basis: 34%;
   }
 
+  .woman .wrap {
+    margin: 50px auto;
+  }
+
   .woman .wrap .woman__wrap {
     background: #fff url("../img/woman.png") no-repeat center top;
     color: #000;
   }
 
   .woman .wrap .woman__wrap .woman__title {
-    margin-top: 330px;
-    margin-left: 10%;
+    margin: 330px 0 0 6%;
     float: left;
   }
 
@@ -800,6 +803,10 @@ input.form-submit.jc_compile_btn {
 
   .woman .wrap .woman__wrap .woman__title .woman__btn {
     margin: 0 auto 20px;
+  }
+
+  .comments .wrap {
+    margin: 50px auto;
   }
 }
 
@@ -815,5 +822,9 @@ input.form-submit.jc_compile_btn {
   .choice .wrap .choice__wrap .choice__border ul li {
     margin: 30px auto;
     font-size: 12px;
+  }
+
+  .woman .wrap .woman__wrap .woman__title {
+    margin-left: 0;
   }
 }
