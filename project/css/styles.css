@@ -789,6 +789,18 @@ input.form-submit.jc_compile_btn {
     margin-left: 10%;
     float: left;
   }
+
+  .woman .wrap .woman__wrap .woman__title h2 {
+    margin: 77px auto 30px;
+  }
+
+  .woman .wrap .woman__wrap .woman__title p {
+    margin: 0 auto 30px;
+  }
+
+  .woman .wrap .woman__wrap .woman__title .woman__btn {
+    margin: 0 auto 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
