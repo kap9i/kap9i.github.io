@@ -253,6 +253,14 @@ header .wrap .header__right p:before {
   left: 50%;
   display: none;
   opacity: 0;
+  z-index: 99;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .jc_subblock_1 .choice__close {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  cursor: pointer;
 }
 
 .choice .wrap .choice__wrap .choice__border ul li {
