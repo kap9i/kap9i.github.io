@@ -40,6 +40,33 @@ body {
   background: linear-gradient(180deg, #67e6ef, #7327eb);
 }
 
+.li {
+  text-align: center;
+  color: #c6cffd;
+  text-decoration: underline;
+  font-size: 17px;
+  flex-basis: 16%;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.icon {
+  padding-top: 50px;
+}
+
+.icon:hover {
+  background-size: contain;
+  width: 128px;
+  height: 133px;
+  position: absolute;
+  bottom: -50px;
+  left: -15px;
+  padding: 6%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -248,7 +275,6 @@ header .wrap .header__right p:before {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 
 .choice .wrap .choice__wrap .choice__border ul .jc_subblock_1 {
@@ -267,26 +293,221 @@ header .wrap .header__right p:before {
   cursor: pointer;
 }
 
-.choice .wrap .choice__wrap .choice__border ul li {
+.choice .wrap .choice__wrap .choice__border ul .icon1 {
   text-align: center;
   color: #c6cffd;
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 17px;
+  flex-basis: 16%;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
 }
 
-.choice .wrap .choice__wrap .choice__border ul li:hover {
-  /*background: url("../img/splat.png") no-repeat center;
-              background-size: contain;*/
-  text-decoration: none;
-  /*color: #fff;
-              position: relative;
-              padding: 6%;
-              font-size: 14px;*/
+.choice .wrap .choice__wrap .choice__border ul .icon1 div {
+  background: url("../img/body.png") 50% 25% no-repeat;
+  padding-top: 50px;
 }
 
-.choice .wrap .choice__wrap .choice__border ul li img {
-  height: 31px;
+.choice .wrap .choice__wrap .choice__border ul .icon1 div:hover {
+  background-size: contain;
+  width: 128px;
+  height: 133px;
+  position: absolute;
+  bottom: -50px;
+  left: -15px;
+  padding: 6%;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon1 div:hover {
+  background: url("../img/body2.png") no-repeat center;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon1 p {
+  margin: 0;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon2 {
+  text-align: center;
+  color: #c6cffd;
+  text-decoration: underline;
+  font-size: 17px;
+  flex-basis: 16%;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon2 div {
+  background: url("../img/finance.png") 50% 25% no-repeat;
+  padding-top: 50px;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon2 div:hover {
+  background-size: contain;
+  width: 128px;
+  height: 133px;
+  position: absolute;
+  bottom: -50px;
+  left: -15px;
+  padding: 6%;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon2 div:hover {
+  background: url("../img/finance2.png") no-repeat center;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon2 p {
+  margin: 0;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon3 {
+  text-align: center;
+  color: #c6cffd;
+  text-decoration: underline;
+  font-size: 17px;
+  flex-basis: 16%;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon3 div {
+  background: url("../img/relationship.png") 50% 25% no-repeat;
+  padding-top: 50px;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon3 div:hover {
+  background-size: contain;
+  width: 128px;
+  height: 133px;
+  position: absolute;
+  bottom: -50px;
+  left: -15px;
+  padding: 6%;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon3 div:hover {
+  background: url("../img/relationship2.png") no-repeat center;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon3 p {
+  margin: 0;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon4 {
+  text-align: center;
+  color: #c6cffd;
+  text-decoration: underline;
+  font-size: 17px;
+  flex-basis: 16%;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon4 div {
+  background: url("../img/emotion.png") 50% 25% no-repeat;
+  padding-top: 50px;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon4 div:hover {
+  background-size: contain;
+  width: 128px;
+  height: 133px;
+  position: absolute;
+  bottom: -50px;
+  left: -15px;
+  padding: 6%;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon4 div:hover {
+  background: url("../img/emotion2.png") no-repeat center;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon4 p {
+  margin: 0;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon5 {
+  text-align: center;
+  color: #c6cffd;
+  text-decoration: underline;
+  font-size: 17px;
+  flex-basis: 16%;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon5 div {
+  background: url("../img/realization.png") 50% 25% no-repeat;
+  padding-top: 50px;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon5 div:hover {
+  background-size: contain;
+  width: 128px;
+  height: 133px;
+  position: absolute;
+  bottom: -50px;
+  left: -15px;
+  padding: 6%;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon5 div:hover {
+  background: url("../img/realization2.png") no-repeat center;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon5 p {
+  margin: 0;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon6 {
+  text-align: center;
+  color: #c6cffd;
+  text-decoration: underline;
+  font-size: 17px;
+  flex-basis: 16%;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon6 div {
+  background: url("../img/efficacy.png") 50% 25% no-repeat;
+  padding-top: 50px;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon6 div:hover {
+  background-size: contain;
+  width: 128px;
+  height: 133px;
+  position: absolute;
+  bottom: -50px;
+  left: -15px;
+  padding: 6%;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon6 div:hover {
+  background: url("../img/efficacy2.png") no-repeat center;
+  left: -9px;
+}
+
+.choice .wrap .choice__wrap .choice__border ul .icon6 p {
+  margin: 0;
 }
 
 .woman .wrap {
@@ -626,9 +847,14 @@ input.form-submit.jc_compile_btn {
     max-width: 600px;
   }
 
-  .choice .wrap .choice__wrap .choice__border ul li {
-    margin-bottom: 10px;
+  .choice .wrap .choice__wrap .choice__border ul .choice__form {
+    margin-top: 30px;
     flex-basis: 30%;
+    font-size: 14px;
+  }
+
+  .choice .wrap .choice__wrap .choice__border ul .choice__form div:hover {
+    left: 0;
   }
 
   .woman .wrap {
@@ -735,8 +961,7 @@ input.form-submit.jc_compile_btn {
   }
 
   .choice .wrap .choice__wrap .choice__border ul li {
-    flex-basis: 26%;
-    margin-top: 30px;
+    margin: 30px auto 0;
   }
 
   .woman .wrap {
@@ -775,10 +1000,6 @@ input.form-submit.jc_compile_btn {
     justify-content: space-around;
   }
 
-  .choice .wrap .choice__wrap .choice__border ul li {
-    flex-basis: 34%;
-  }
-
   .woman .wrap {
     margin: 50px auto;
   }
@@ -808,6 +1029,10 @@ input.form-submit.jc_compile_btn {
   .comments .wrap {
     margin: 50px auto;
   }
+
+  .comments .wrap .comments__wrap .comments__border {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -819,12 +1044,23 @@ input.form-submit.jc_compile_btn {
     height: 150px;
   }
 
-  .choice .wrap .choice__wrap .choice__border ul li {
-    margin: 30px auto;
-    font-size: 12px;
+  .choice .wrap .choice__wrap .choice__border ul .choice__form {
+    flex-basis: 50%;
   }
 
   .woman .wrap .woman__wrap .woman__title {
     margin-left: 0;
+  }
+
+  .social .wrap .social__wrap .social__border h2 {
+    font-size: 25px;
+  }
+
+  #vkwidget1 {
+    width: 260px;
+  }
+
+  .comments__fb {
+    display: none;
   }
 }
