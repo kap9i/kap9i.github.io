@@ -2,7 +2,7 @@ $(function () {
 
     /*таймер*/
 
-    var deadline = '2016-11-25';
+    var deadline = '2017-11-01';
 
     function timeLeft(endtime) {
         var t = Date.parse(endtime) - Date.parse(new Date());
