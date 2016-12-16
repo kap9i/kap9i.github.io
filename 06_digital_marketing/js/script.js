@@ -98,6 +98,13 @@ $(function () {
                 link.target = "_blank";
         }
     });
+
+    /*появление блоков при прокрутке*/
+
+    $('.animate').addClass("hidden").viewportChecker({
+        classToAdd: 'visible',
+        offset: 100
+    });
 });
 
 
